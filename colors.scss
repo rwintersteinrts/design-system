@@ -105,8 +105,8 @@ $tokens: (
   "bg-transparent": map-get($colors, "transparent"),
   "bg-hover": rgba(map-get($colors, gray-7), 0.1),
   "bg-active": rgba(map-get($colors, gray-7), 0.2),
-  // border
   "bg-selected": map-get($colors, blue-6),
+  // border
   "border-brand": map-get($colors, green-5),
   "border-minimal": map-get($colors, gray-2),
   "border-subtle": map-get($colors, gray-3),
