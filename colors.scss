@@ -96,14 +96,14 @@ $colors: (
 $tokens: (
   // background
   "background-base": map-get($colors, "white"),
-  "background-surface": map-get($colors, #F7F9FA),
+  "background-surface": map-get($colors, #f7f9fa),
   "background-minimal": map-get($colors, gray-0),
   "background-subtle": map-get($colors, gray-1),
   "background-moderate": map-get($colors, gray-2),
   "background-strong": map-get($colors, gray-4),
   "background-contrast": map-get($colors, gray-8),
   "background-transparent": map-get($colors, "transparent"),
-  "background-hover": map-get($colors, #F7F9FA),
+  "background-hover": map-get($colors, #f7f9fa),
   "background-active": map-get($colors, gray-0),
   "background-selected": map-get($colors, blue-6),
   // border
@@ -115,6 +115,7 @@ $tokens: (
   "border-contrast": map-get($colors, gray-9),
   "border-hover": map-get($colors, gray-5),
   "border-selected": map-get($colors, blue-5),
+  // text
   "text-primary": map-get($colors, gray-9),
   "text-secondary": map-get($colors, gray-8),
   "text-tertiary": map-get($colors, gray-7),
@@ -125,52 +126,63 @@ $tokens: (
   "text-link": map-get($colors, blue-6),
   "text-link-hover": map-get($colors, blue-7),
   "text-link-active": map-get($colors, blue-8),
+  // icon
   "icon-primary": map-get($colors, gray-9),
   "icon-secondary": map-get($colors, gray-7),
   "icon-tertiary": map-get($colors, gray-5),
   "icon-minimal": map-get($colors, gray-3),
   "icon-contrast": map-get($colors, "white"),
   "icon-selected": map-get($colors, blue-6),
+  // brand
   "brand-heavy": map-get($colors, green-8),
   "brand-strong": map-get($colors, green-7),
   "brand": map-get($colors, green-6),
   "brand-moderate": map-get($colors, green-5),
   "brand-subtle": map-get($colors, green-4),
   "brand-minimal": map-get($colors, green-3),
+  // primary
   "primary-heavy": map-get($colors, blue-8),
   "primary-strong": map-get($colors, blue-7),
   "primary": map-get($colors, blue-6),
   "primary-moderate": map-get($colors, blue-5),
   "primary-subtle": map-get($colors, blue-4),
   "primary-minimal": map-get($colors, blue-3),
+  // secondary
   "secondary-heavy": map-get($colors, gray-8),
   "secondary-strong": map-get($colors, gray-7),
   "secondary": map-get($colors, gray-6),
   "secondary-moderate": map-get($colors, gray-5),
   "secondary-subtle": map-get($colors, gray-4),
   "secondary-minimal": map-get($colors, gray-3),
+  // destructive
   "destructive-heavy": map-get($colors, red-8),
   "destructive-strong": map-get($colors, red-7),
   "destructive": map-get($colors, red-6),
   "destructive-moderate": map-get($colors, red-5),
   "destructive-subtle": map-get($colors, red-4),
   "destructive-minimal": map-get($colors, red-3),
+  // reversed
   "reversed": map-get($colors, "white"),
   "reversed-moderate": map-get($colors, gray-0),
   "reversed-subtle": map-get($colors, gray-1),
   "reversed-minimal": map-get($colors, gray-2),
+  // general
   "general-moderate": map-get($colors, gray-8),
   "general": map-get($colors, gray-6),
   "general-subtle": map-get($colors, gray-1),
+  // success
   "success-moderate": map-get($colors, green-8),
   "success": map-get($colors, green-6),
   "success-subtle": map-get($colors, green-1),
+  // warning
   "warning-moderate": map-get($colors, yellow-8),
   "warning": map-get($colors, yellow-5),
   "warning-subtle": map-get($colors, yellow-1),
+  // error
   "error-moderate": map-get($colors, red-8),
   "error": map-get($colors, red-5),
   "error-subtle": map-get($colors, red-1),
+  // info
   "info-moderate": map-get($colors, blue-8),
   "info": map-get($colors, blue-5),
   "info-subtle": map-get($colors, blue-1)
