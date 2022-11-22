@@ -96,14 +96,14 @@ $colors: (
 $tokens: (
   // background
   "background-base": map-get($colors, "white"),
-  "background-surface": map-get($colors, #f7f9fa),
+  "background-surface": mix(map-get($colors, "white"), map-get($colors, "gray-0"), 50%),
   "background-minimal": map-get($colors, gray-0),
   "background-subtle": map-get($colors, gray-1),
   "background-moderate": map-get($colors, gray-2),
   "background-strong": map-get($colors, gray-4),
   "background-contrast": map-get($colors, gray-8),
   "background-transparent": map-get($colors, "transparent"),
-  "background-hover": map-get($colors, #f7f9fa),
+  "background-hover": mix(map-get($colors, "white"), map-get($colors, "gray-0"), 50%),
   "background-active": map-get($colors, gray-0),
   "background-selected": map-get($colors, blue-6),
   // border
