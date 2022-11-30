@@ -121,7 +121,7 @@ $tokens: (
   "text-tertiary",
   "text-subtle",
   "text-minimal",
-  "text-contrast",
+  "text-oncontrast",
   "text-selected",
   "text-link",
   "text-link-hover",
@@ -131,7 +131,7 @@ $tokens: (
   "icon-secondary",
   "icon-tertiary",
   "icon-minimal",
-  "icon-contrast",
+  "icon-oncontrast",
   "icon-selected",
   // brand
   "brand-heavy",
@@ -161,11 +161,11 @@ $tokens: (
   "destructive-moderate",
   "destructive-subtle",
   "destructive-minimal",
-  // reversed
-  "reversed",
-  "reversed-moderate",
-  "reversed-subtle",
-  "reversed-minimal",
+  // oncontrast
+  "oncontrast",
+  "oncontrast-moderate",
+  "oncontrast-subtle",
+  "oncontrast-minimal",
   // general
   "general-moderate",
   "general",

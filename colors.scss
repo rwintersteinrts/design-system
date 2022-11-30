@@ -121,7 +121,7 @@ $tokens: (
   "text-tertiary": map-get($colors, gray-7),
   "text-subtle": map-get($colors, gray-6),
   "text-minimal": map-get($colors, gray-4),
-  "text-contrast": map-get($colors, "white"),
+  "text-oncontrast": map-get($colors, "white"),
   "text-selected": map-get($colors, blue-6),
   "text-link": map-get($colors, blue-6),
   "text-link-hover": map-get($colors, blue-7),
@@ -131,7 +131,7 @@ $tokens: (
   "icon-secondary": map-get($colors, gray-7),
   "icon-tertiary": map-get($colors, gray-5),
   "icon-minimal": map-get($colors, gray-3),
-  "icon-contrast": map-get($colors, "white"),
+  "icon-oncontrast": map-get($colors, "white"),
   "icon-selected": map-get($colors, blue-6),
   // brand
   "brand-heavy": map-get($colors, green-8),
@@ -161,11 +161,11 @@ $tokens: (
   "destructive-moderate": map-get($colors, red-5),
   "destructive-subtle": map-get($colors, red-4),
   "destructive-minimal": map-get($colors, red-3),
-  // reversed
-  "reversed": map-get($colors, "white"),
-  "reversed-moderate": map-get($colors, gray-0),
-  "reversed-subtle": map-get($colors, gray-1),
-  "reversed-minimal": map-get($colors, gray-2),
+  // oncontrast
+  "oncontrast": map-get($colors, "white"),
+  "oncontrast-moderate": map-get($colors, gray-0),
+  "oncontrast-subtle": map-get($colors, gray-1),
+  "oncontrast-minimal": map-get($colors, gray-2),
   // general
   "general-moderate": map-get($colors, gray-8),
   "general": map-get($colors, gray-6),

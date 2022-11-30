@@ -26,7 +26,7 @@
   --text-tertiary: #{palette-color("text-tertiary")};
   --text-subtle: #{palette-color("text-subtle")};
   --text-minimal: #{palette-color("text-minimal")};
-  --text-contrast: #{palette-color("text-contrast")};
+  --text-oncontrast: #{palette-color("text-oncontrast")};
   --text-selected: #{palette-color("text-selected")};
   --text-link: #{palette-color("text-link")};
   --text-link-hover: #{palette-color("text-link-hover")};
@@ -36,7 +36,7 @@
   --icon-secondary: #{palette-color("icon-secondary")};
   --icon-tertiary: #{palette-color("icon-tertiary")};
   --icon-minimal: #{palette-color("icon-minimal")};
-  --icon-contrast: #{palette-color("icon-contrast")};
+  --icon-oncontrast: #{palette-color("icon-oncontrast")};
   --icon-selected: #{palette-color("icon-selected")};
   // brand
   --brand-heavy: #{palette-color("brand-heavy")};
@@ -66,11 +66,11 @@
   --destructive-moderate: #{palette-color("destructive-moderate")};
   --destructive-subtle: #{palette-color("destructive-subtle")};
   --destructive-minimal: #{palette-color("destructive-minimal")};
-  // reversed
-  --reversed: #{palette-color("reversed")};
-  --reversed-moderate: #{palette-color("reversed-moderate")};
-  --reversed-subtle: #{palette-color("reversed-subtle")};
-  --reversed-minimal: #{palette-color("reversed-minimal")};
+  // oncontrast
+  --oncontrast: #{palette-color("oncontrast")};
+  --oncontrast-moderate: #{palette-color("oncontrast-moderate")};
+  --oncontrast-subtle: #{palette-color("oncontrast-subtle")};
+  --oncontrast-minimal: #{palette-color("oncontrast-minimal")};
   // general
   --general-moderate: #{palette-color("general-moderate")};
   --general: #{palette-color("general")};
