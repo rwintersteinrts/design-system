@@ -103,6 +103,7 @@ $tokens: (
   "background-strong": map-get($colors, gray-4),
   "background-contrast": map-get($colors, gray-8),
   "background-transparent": map-get($colors, "transparent"),
+  "background-overlay": rgba(map-get($colors, "black"), .32),
   "background-hover": mix(map-get($colors, "white"), map-get($colors, "gray-0"), 50%),
   "background-active": map-get($colors, gray-0),
   "background-selected": map-get($colors, blue-6),

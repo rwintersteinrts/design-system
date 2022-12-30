@@ -98,6 +98,7 @@
     "background-strong": "gray-4",
     "background-contrast": "gray-8",
     "background-transparent": "transparent",
+    "background-overlay": "rgba(0, 0, 0, .32",
     "background-hover": "#F7F9FA",
     "background-active": "gray-0",
     "background-selected": "blue-6",
