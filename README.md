@@ -97,13 +97,3 @@ In addition, there are spacing guidelines provided for headings followed by body
 On the left panel under **Pages**, a list of components are able to be viewed. With in each component page, each variation of that component will be displayed as examples of what can be used within design layouts. In the example below for the badge component, there is a section for size, emphasis, and style. Depending on the component, there may be more or less categories for variations.
 
 <img src="img/8-ui_kit-components.png" width=1000px;>
-
----
-
-## UI Kit - Component Specs
-
-In addition to the component, there will also be sections displaying the specs for development handoff. The properties listed here will showcase what alterations are needed for the relevant [Material Component](https://material.angular.io/components/categories). If a property is not displayed in one of the spec sheets, it is because that style is already present in the standard Material Component, therefore it is not necessary to override it.
-
-Referring to the example below, properties in **white** text are necessary, but do not change across the different variations. Properties in **orange** are styles that do change across variations (i.e. the font-size is 10px in the ‘small’ variant, but changes to 13px in the ‘medium’ variant. Properties in **pink** are specific *only* to that variant, such as the dark text being needed against the yellow background to accommodate adequate contrast.
-
-<img src="img/8.1-ui_component_specs.png" width=1000px;>
